@@ -2,8 +2,10 @@
 
 📖 Simple idea of a blog built with React, React Router, Redux and Webpack.
 
-![alt text](https://lh6.googleusercontent.com/SyKII-oVnlpfNgcnaWuCd5KssYC_xbAcYd5Rno3VuORxg_fO5HmhM6NR-33EsAWpHyR-mHEPKnQBto3FMFf5=w2172-h1276-rw)
-![alt text](https://lh3.googleusercontent.com/O50LZugEfslmkfhgEqyYyJLPTQ8ONX6iNEmilJGUQNOH03nymnEAHcCjSOQB74iCYWnbk7rzzs-UJW98xYi2=w2172-h1276-rw)
+[Live Demo](https://react-clean-blog.herokuapp.com/)
+
+![img](https://i.imgur.com/k2kBfD9.jpg)
+![img](https://i.imgur.com/NuJmTnD.jpg)
 
 
 ### Getting started
