@@ -1,0 +1,101 @@
+const BlogAPI = {
+  posts: [
+    { 
+      id: 1990,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Gaming firm Razer seeks to raise over $600M in Hong Kong IPO",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DmAqFfDUcAAoriQ.jpg',
+      Author: 'Bob Ross',
+      Votes: 999998,
+    },
+    { 
+      id: 1991,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Mendel.ai nabs $2 million to match cancer patients with the latest clinical trials",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/Do0tSDgUwAADpbo.jpg',
+      Author: 'Bob Ross',
+      Votes: 156600,
+    },
+    { 
+      id: 1992,
+      CreatedAt: 'OCT 10 2018',
+      Title: "These cities in California's East Bay are raking in venture capital",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DnsowO3U0AM6CcQ.jpg',
+      Author: 'Bob Ross',
+      Votes: 111999,
+    },
+    { 
+      id: 1993,
+      CreatedAt: 'OCT 10 2018',
+      Title: "A walk around Station F with Emmanuel Macron",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DmkhW7vUcAAL_ZJ.jpg',
+      Author: 'Bob Ross',
+      Votes: 109287,
+    },
+    { 
+      id: 1994,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Crunch Report | Facebook Helps You Find Wi-Fi",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DmFeLyjUYAAChLl.jpg',
+      Author: 'Bob Ross',
+      Votes: 531098,
+    },
+    { 
+      id: 1995,
+      CreatedAt: 'OCT 10 2018',
+      Title: "McClure steps back at 500 Startups after internal sexual misconduct investigation",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DmvC_uRVsAU01Ws.jpg',
+      Author: 'Bob Ross',
+      Votes: 712311,
+    },
+    { 
+      id: 1996,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Game publisher GameMine inks a $20 million partnership with South Africa's Vodacom",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DmAqFfCVsAAgdeH.jpg',
+      Author: 'Bob Ross',
+      Votes: 930481,
+    },
+    { 
+      id: 1997,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Real estate site Redfin files for IPO",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/DkUdtF7VAAM978O.jpg',
+      Author: 'Bob Ross',
+      Votes: 143899,
+    },
+    { 
+      id: 1998,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Snapchat bought the AR location intellectual property of startup Drop",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/Dh_MAw2VQAAq3RO.jpg',
+      Author: 'Bob Ross',
+      Votes: 223109,
+    },
+    { 
+      id: 1999,
+      CreatedAt: 'OCT 10 2018',
+      Title: "Google.org, BlackRock and others commit $2.2 million to Fast Forward's nonprofit tech accelerator",
+      Description: "We wash our brush with odorless thinner.",
+      Image: 'https://pbs.twimg.com/media/Dfpz6JGUcAAs7wm.jpg',
+      Author: 'Bob Ross',
+      Votes: 902109,
+    },
+  ],
+  all: function() { return this.posts },
+  get: function(id) {
+    const isPost = p => p.id === id
+    return this.posts.find(isPost)
+  }
+}
+
+export default BlogAPI
